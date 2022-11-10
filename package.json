@@ -16,7 +16,6 @@
     "test:typecheck": "tsc --noEmit --incremental",
     "test:unit": "jest --config config/jest.json",
     "coveralls": "npm run test:unit -- --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-    "prepare": "npm run build"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
